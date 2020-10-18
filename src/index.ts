@@ -356,12 +356,12 @@ const buildPermutationTables = (random: PRNG): PermTables => {
         const r = i + ~~(random() * (256 - i));
         const v = tmp[r];
         tmp[r] = tmp[i];
-        perm[i] = v;
-        perm[i + 256] = v;
-        const vMod12 = v % 12;
-        permMod12[i] = vMod12;
-        permMod12[i + 256] = vMod12;
-      }
+        perm[i] = perm[i + 256] = v;
+        permMod12[i] = permMod12[i + 256] = v % 12;
+    }
+    const v = tmp[255];
+    perm[255] = perm[511] = v;
+    permMod12[255] = permMod12[511] = v % 12;
     return { perm, permMod12 };
 };
 

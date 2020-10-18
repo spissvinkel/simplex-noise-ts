@@ -1,6 +1,6 @@
 {
     "name": "@spissvinkel/simplex-noise",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simplex noise generator for JS/TS",
     "keywords": [
         "simplex",
