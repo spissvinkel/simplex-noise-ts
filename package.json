@@ -3,12 +3,9 @@
     "version": "1.0.0",
     "description": "Simplex noise generator for JS/TS",
     "keywords": [
-        "prng",
-        "pseudo",
-        "random",
-        "number",
+        "simplex",
+        "noise",
         "generator",
-        "alea",
         "typescript"
     ],
     "author": "Simen Storsveen <code@simenstorsveen.no>",
