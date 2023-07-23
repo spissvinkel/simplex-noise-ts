@@ -1,8 +1,10 @@
 {
-  "mode": "file",
-  "readme": "none",
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPointStrategy": "expand",
   "out": "./docs/api",
   "name": "@spissvinkel/simplex-noise",
   "includeVersion": true,
-  "stripInternal": true
+  "readme": "none",
+  "excludeInternal": true,
+  "sort": [ "source-order" ]
 }
