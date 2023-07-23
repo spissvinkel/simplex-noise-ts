@@ -1,5 +1,6 @@
 #!/bin/bash
-rm -rf ./docs/*.html ./docs/assets/* ./docs/api/*
+
+rm -rf ./docs/*.html ./docs/api/*
 
 cp README.md docs/index.md
 
